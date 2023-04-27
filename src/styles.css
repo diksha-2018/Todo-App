@@ -1,0 +1,98 @@
+body{
+    background-color:lightgoldenrodyellow;
+    margin:0;
+    padding:0;
+}
+.task {
+    width:100%;
+    background-color:blanchedalmond;
+}
+.task h1{
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+.task input
+{
+    width:100%;
+    border:none;
+   outline:none;
+    padding:12px ;
+    margin-bottom:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:lightgrey;
+    text-align:center;
+    margin-top:20px;
+}
+.task input:hover{
+    border:solid 1px black;
+}
+.task button{
+   position:absolute;
+   left:45%;
+   margin-top:20px;
+   background-color:lightcoral;
+   color:black;
+   width:100px;
+   height:40px;
+   font-weight:italic;
+   border:none;
+   font-size:15px;
+   border-radius: 6px;
+}
+.task button:hover{
+    opacity:0.5;
+}
+.line
+{
+    width:100%;
+    margin-top:70px;
+    border:solid 1px black;
+}
+.tasks{
+    text-align:center;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom:40px;
+    margin-top:30px;
+    font-style:italic;
+    font-weight:bolder;
+}
+.task1
+{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    padding-top:20px;
+    padding-bottom:10px;
+    font-style:italic;
+
+}
+.button1
+{
+    
+    position:relative;
+    left:87%;
+    margin-bottom:5px;
+    background-color:blanchedalmond;
+    color:black;
+    margin-top:2px;
+    border-radius:4px;
+    border-bottom:1px;
+}
+.button2{
+    float:right;
+    margin-right:10px;
+    background-color:blanchedalmond;
+    color:black;
+    margin-top:2px;
+    border-radius:4px;
+}
+.button1
+{
+    transform-style: preserve-3d;
+}
+.list1
+{
+    margin-bottom:10px;
+}
